@@ -1,3 +1,40 @@
-h3{
-    color: plum;
+body{
+margin: 0;
+padding: 0;
+background-color: rgba(173, 175, 159, 0.219);
+}
+.heading{
+    width: 100%;
+    height: 15vh;
+    
+}
+.heading h3,h1{
+    color: rgb(56, 165, 41);
+    text-align: center;
+}
+.prgmsuccess{
+    position: relative;
+    width: 80%;
+    height: 125vh;
+    margin: auto;
+    border: 3px solid rgb(131, 63, 36);
+    border-radius: 5px;
+    background-color: rgb(186, 230, 65);
+}
+.prgmsuccess h2{
+    text-align: center;
+    font-size: larger;
+    color: rgb(15, 2, 3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.prgmsuccess p{
+    padding: 5px 10px;
+    font-family: cursive;
+    color: rgb(141, 57, 47);
+}
+.prgmsuccess img{
+    position: absolute;
+    width: 90%;
+    height: 78%;
+    margin: 10px 5% 5%;
 }
